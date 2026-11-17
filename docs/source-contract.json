@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "simulation_scene",
+    "realworld_receipt"
+  ],
+  "relation_field": "scene",
+  "required_fields": {
+    "simulation_scene": [
+      "scene",
+      "scene_revision",
+      "terrain_digest"
+    ],
+    "realworld_receipt": [
+      "scene",
+      "scene_revision",
+      "real_run"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "kind": "realworld_receipt",
-  "id": "realworld_receipt-B",
+  "id": "realworld_receipt-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "pending"
+  "scene": "scene-1",
+  "scene_revision": "v2",
+  "real_run": "REAL-1"
 }
