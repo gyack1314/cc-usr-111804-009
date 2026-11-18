@@ -1,0 +1,18 @@
+{
+  "allowed_origins": [
+    "https://local-source-009.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-009.example.test/records/simulation_scene-A",
+      "kind": "simulation_scene",
+      "required": true
+    },
+    {
+      "url": "https://local-source-009.example.test/records/scene_withdrawal-A",
+      "kind": "scene_withdrawal",
+      "required": true
+    }
+  ],
+  "steps": []
+}
