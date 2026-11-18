@@ -1,0 +1,32 @@
+{
+  "allowed_origins": [
+    "https://local-source-009.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-009.example.test/records/simulation_scene-A",
+      "kind": "simulation_scene",
+      "required": true
+    },
+    {
+      "url": "https://local-source-009.example.test/records/realworld_receipt-B",
+      "kind": "realworld_receipt",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-009.example.test/records/simulation_scene-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-revised.bin",
+        "status": 200,
+        "bytes": 163,
+        "sha256": "eec5e3e72317d8376fc9264b4d00af84f343c0b7b9ec616c1e70094574d674ad"
+      }
+    }
+  ]
+}

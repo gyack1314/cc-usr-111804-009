@@ -1,0 +1,8 @@
+{
+  "kind": "simulation_scene",
+  "id": "simulation_scene-A",
+  "revision": "v2",
+  "scene": "scene-1",
+  "scene_revision": "v2",
+  "terrain_digest": "terrain-C"
+}
