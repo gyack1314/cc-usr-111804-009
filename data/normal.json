@@ -29,5 +29,17 @@
         "sha256": "34ab09468bf24ceed9c6a3b355213fd15244fe5f24791ebaa6fcbf7a8fd278f3"
       }
     }
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-009.example.test/records/simulation_scene-A",
+      "kind": "simulation_scene",
+      "required": true
+    },
+    {
+      "url": "https://local-source-009.example.test/records/realworld_receipt-B",
+      "kind": "realworld_receipt",
+      "required": true
+    }
   ]
 }
