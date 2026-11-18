@@ -1,7 +1,8 @@
 {
   "roles": [
     "simulation_scene",
-    "realworld_receipt"
+    "realworld_receipt",
+    "scene_withdrawal"
   ],
   "relation_field": "scene",
   "required_fields": {
@@ -14,6 +15,12 @@
       "scene",
       "scene_revision",
       "real_run"
+    ],
+    "scene_withdrawal": [
+      "scene",
+      "scene_revision",
+      "withdrawn_on",
+      "reason"
     ]
   },
   "source_identity": [

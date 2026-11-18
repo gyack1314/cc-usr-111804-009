@@ -1,0 +1,9 @@
+{
+  "kind": "scene_withdrawal",
+  "id": "scene_withdrawal-A",
+  "revision": "v1",
+  "scene": "scene-1",
+  "scene_revision": "v2",
+  "withdrawn_on": "2026-11-18",
+  "reason": "terrain-replaced"
+}

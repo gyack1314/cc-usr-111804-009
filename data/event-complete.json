@@ -1,0 +1,37 @@
+{
+  "allowed_origins": [
+    "https://local-source-009.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-009.example.test/records/simulation_scene-A",
+      "kind": "simulation_scene",
+      "required": true
+    },
+    {
+      "url": "https://local-source-009.example.test/records/realworld_receipt-B",
+      "kind": "realworld_receipt",
+      "required": true
+    },
+    {
+      "url": "https://local-source-009.example.test/records/scene_withdrawal-A",
+      "kind": "scene_withdrawal",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-009.example.test/records/scene_withdrawal-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-event.bin",
+        "status": 200,
+        "bytes": 194,
+        "sha256": "52a07f81a208b17abf023c049f7edba63a76f3a3ad1df2bc0c9d5f7fd5802b69"
+      }
+    }
+  ]
+}
