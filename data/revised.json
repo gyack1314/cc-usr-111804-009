@@ -6,12 +6,14 @@
     {
       "url": "https://local-source-009.example.test/records/simulation_scene-A",
       "kind": "simulation_scene",
-      "required": true
+      "required": true,
+      "expected_revision": "v2"
     },
     {
       "url": "https://local-source-009.example.test/records/realworld_receipt-B",
       "kind": "realworld_receipt",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     }
   ],
   "steps": [
